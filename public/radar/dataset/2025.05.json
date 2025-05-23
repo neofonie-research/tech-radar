@@ -186,6 +186,10 @@
             {
                 "label": "SonarQube",
                 "moved": 1
+            },
+            {
+                "label": "Shopify",
+                "moved": 0
             }
         ],
         "trial": [
@@ -229,10 +233,6 @@
             },
             {
                 "label": "GraphQL",
-                "moved": 0
-            },
-            {
-                "label": "Shopify",
                 "moved": 0
             }
         ],
