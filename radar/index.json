@@ -1,0 +1,11 @@
+[
+    {
+        "id": "ontolux",
+        "label": "ontolux Tech Radar",
+        "is_default": true,
+        "version": "2025.06",
+        "versions": [
+            "2025.06"
+        ]
+    }
+]

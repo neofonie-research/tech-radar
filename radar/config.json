@@ -1,0 +1,48 @@
+{
+    "id": "ontolux",
+    "label": "ontolux Tech Radar",
+    "version": "2025.06",
+    "versions": [
+        "2025.06"
+    ],
+    "quadrants": [
+        {
+            "label": "Infrastructure & MLOps",
+            "short": "infrastructure_mlops"
+        },
+        {
+            "label": "Search, Retrieval & Data",
+            "short": "search_retrieval_data"
+        },
+        {
+            "label": "AI, ML & NLP",
+            "short": "ai_ml_nlp"
+        },
+        {
+            "label": "(Large) Language Models",
+            "short": "llm"
+        }
+    ],
+    "rings": [
+        {
+            "label": "ADOPT"
+        },
+        {
+            "label": "TRIAL"
+        },
+        {
+            "label": "ASSESS"
+        },
+        {
+            "label": "HOLD"
+        }
+    ],
+    "seed": {
+        "from": 20,
+        "to": 50
+    },
+    "dot": {
+        "offset_x": 100,
+        "offset_y": 100
+    }
+}
