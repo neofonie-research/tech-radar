@@ -1,0 +1,346 @@
+{
+    "infrastructure_mlops": {
+        "adopt": [
+            {
+                "label": "Docker",
+                "moved": 0
+            },
+            {
+                "label": "Kubernetes",
+                "moved": 0
+            },
+            {
+                "label": "AWS",
+                "moved": 0
+            },
+            {
+                "label": "AWS Bedrock",
+                "moved": 0
+            },
+            {
+                "label": "Azure",
+                "moved": 0
+            },
+            {
+                "label": "GitHub Actions",
+                "moved": 0
+            },
+            {
+                "label": "GitLab CI/CD",
+                "moved": 0
+            },
+            {
+                "label": "vLLM",
+                "moved": 0
+            },
+            {
+                "label": "Jenkins",
+                "moved": 0
+            }
+        ],
+        "trial": [
+            {
+                "label": "MLflow",
+                "moved": 0
+            },
+            {
+                "label": "Prometheus/Grafana",
+                "moved": 0
+            },
+            {
+                "label": "Ollama",
+                "moved": 0
+            },
+            {
+                "label": "Hugging Face Inference Endpoints",
+                "moved": 0
+            },
+            {
+                "label": "Vertex AI",
+                "moved": 0
+            }
+        ],
+        "assess": [
+            {
+                "label": "DVC",
+                "moved": 0
+            },
+            {
+                "label": "SageMaker",
+                "moved": 0
+            },
+            {
+                "label": "Langfuse",
+                "moved": 0
+            },
+            {
+                "label": "Azure ML",
+                "moved": 0
+            },
+            {
+                "label": "ONNX Runtime",
+                "moved": 0
+            }
+        ],
+        "hold": [
+            {
+                "label": "Kubeflow",
+                "moved": 0
+            },
+            {
+                "label": "Jupyter",
+                "moved": 0
+            }
+        ]
+    },
+    "search_retrieval_data": {
+        "adopt": [
+            {
+                "label": "Elasticsearch",
+                "moved": 0
+            },
+            {
+                "label": "OpenSearch",
+                "moved": 0
+            },
+            {
+                "label": "Solr",
+                "moved": 0
+            },
+            {
+                "label": "PostgreSQL",
+                "moved": 0
+            },
+            {
+                "label": "FAISS",
+                "moved": 0
+            },
+            {
+                "label": "AWS S3",
+                "moved": 0
+            },
+            {
+                "label": "Google Cloud Storage",
+                "moved": 0
+            }
+        ],
+        "trial": [
+            {
+                "label": "Weaviate",
+                "moved": 0
+            },
+            {
+                "label": "Qdrant",
+                "moved": 0
+            },
+            {
+                "label": "Vespa",
+                "moved": 0
+            },
+            {
+                "label": "Pinecone",
+                "moved": 0
+            },
+            {
+                "label": "Haystack",
+                "moved": 0
+            },
+            {
+                "label": "Milvus",
+                "moved": 0
+            },
+            {
+                "label": "Jina AI",
+                "moved": 0
+            },
+            {
+                "label": "unstructured.io",
+                "moved": 0
+            },
+            {
+                "label": "pdfplumber",
+                "moved": 0
+            },
+            {
+                "label": "Apache Spark",
+                "moved": 0
+            },
+            {
+                "label": "Neo4j",
+                "moved": 0
+            }
+        ],
+        "assess": [
+            {
+                "label": "Apache Kafka",
+                "moved": 0
+            }
+        ],
+        "hold": [
+            {
+                "label": "Redis",
+                "moved": 0
+            }
+        ]
+    },
+    "ai_ml_nlp": {
+        "adopt": [
+            {
+                "label": "Transformers (HF)",
+                "moved": 0
+            },
+            {
+                "label": "PyTorch",
+                "moved": 0
+            },
+            {
+                "label": "spaCy",
+                "moved": 0
+            },
+            {
+                "label": "SentenceTransformers",
+                "moved": 0
+            },
+            {
+                "label": "BitsAndBytes (Quantisierung)",
+                "moved": 0
+            },
+            {
+                "label": "AutoGPTQ (Quantisierung)",
+                "moved": 0
+            },
+            {
+                "label": "LoRA / PEFT",
+                "moved": 0
+            }
+        ],
+        "trial": [
+            {
+                "label": "LangChain",
+                "moved": 0
+            },
+            {
+                "label": "LlamaIndex",
+                "moved": 0
+            },
+            {
+                "label": "Ragas",
+                "moved": 0
+            }
+        ],
+        "assess": [
+            {
+                "label": "TextAttack",
+                "moved": 0
+            },
+            {
+                "label": "guardrails-ai",
+                "moved": 0
+            }
+        ],
+        "hold": [
+            {
+                "label": "NLTK",
+                "moved": 0
+            },
+            {
+                "label": "Word2Vec",
+                "moved": 0
+            },
+            {
+                "label": "Gensim",
+                "moved": 0
+            }
+        ]
+    },
+    "llm": {
+        "adopt": [
+            {
+                "label": "OpenAI GPT-Serie",
+                "moved": 0
+            },
+            {
+                "label": "Claude-Serie",
+                "moved": 0
+            },
+            {
+                "label": "Google Gemini",
+                "moved": 0
+            },
+            {
+                "label": "LLama-Serie",
+                "moved": 0
+            },
+            {
+                "label": "Mistral/Mixtral",
+                "moved": 0
+            },
+            {
+                "label": "Gemma",
+                "moved": 0
+            },
+            {
+                "label": "RoBERTa",
+                "moved": 0
+            }
+        ],
+        "trial": [
+            {
+                "label": "Deepseek",
+                "moved": 0
+            },
+            {
+                "label": "Nemotron",
+                "moved": 0
+            },
+            {
+                "label": "Grok",
+                "moved": 0
+            },
+            {
+                "label": "Phi",
+                "moved": 0
+            },
+            {
+                "label": "MiniMax",
+                "moved": 0
+            },
+            {
+                "label": "Command R",
+                "moved": 0
+            },
+            {
+                "label": "ModernBERT/EuroBERT",
+                "moved": 0
+            }
+        ],
+        "assess": [
+            {
+                "label": "State Space Models (SSMs) (z.B. Mamba)",
+                "moved": 0
+            },
+            {
+                "label": "Sonar (Perplexity)",
+                "moved": 0
+            }
+        ],
+        "hold": [
+            {
+                "label": "T5",
+                "moved": 0
+            },
+            {
+                "label": "Falcon",
+                "moved": 0
+            },
+            {
+                "label": "Bloom",
+                "moved": 0
+            },
+            {
+                "label": "BERT",
+                "moved": 0
+            }
+        ]
+    }
+}

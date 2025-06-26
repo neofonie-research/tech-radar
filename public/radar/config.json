@@ -1,26 +1,26 @@
 {
-    "id": "neofonie",
-    "label": "Neofonie Tech Radar",
-    "version": "2025.05",
+    "id": "ontolux",
+    "label": "ontolux Tech Radar",
+    "version": "2025.06",
     "versions": [
-        "2025.05"
+        "2025.06"
     ],
     "quadrants": [
         {
-            "label": "Frontend",
-            "short": "frontend"
+            "label": "Infrastructure & MLOps",
+            "short": "infrastructure_mlops"
         },
         {
-            "label": "DevOps / Infrastructure",
-            "short": "devops"
+            "label": "Search, Retrieval & Data",
+            "short": "search_retrieval_data"
         },
         {
-            "label": "PHP",
-            "short": "php"
+            "label": "AI, ML & NLP",
+            "short": "ai_ml_nlp"
         },
         {
-            "label": "JAVA",
-            "short": "java"
+            "label": "(Large) Language Models",
+            "short": "llm"
         }
     ],
     "rings": [

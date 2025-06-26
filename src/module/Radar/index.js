@@ -222,6 +222,23 @@ export default class extends Module {
     if (!version)
       version = this.controls.version;
 
+    // Wait for datasource to be ready before applying fallback
+    if (!this.dataSource.defaultRadar) {
+      // If datasource is not ready yet, wait for it
+      this.dataSource.on('ready', () => {
+        this.selectVersion(id, version);
+      });
+      return;
+    }
+
+    // Fallback to default radar if no URL parameters are provided
+    if (!id || !version) {
+      id = this.dataSource.defaultRadar.id;
+      version = this.dataSource.defaultRadar.version;
+      // Update the URL to reflect the default selection
+      this.controls.setHash(id, version);
+    }
+
     this.dataSource
       .selectRadar(id, version)
       .then(() => {

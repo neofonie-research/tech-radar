@@ -1,35 +1,40 @@
-# Neofonie TechRadar
+# ontolux Tech Radar
 
 [![Build Status](https://github.com/Neofonie/tech-radar/workflows/deploy/badge.svg)](https://github.com/Neofonie/tech-radar/actions)
 
-![Screenshot](../main/public/screenshots/neotechradar2.png?raw=true)
-
+![Screenshot](../main/public/screenshots/ontoluxtechradar.png?raw=true)
 
 # Motivation
 
-At [Neofonie](https://neofonie.de), we maintain a [public Tech
-Radar](https://neofonie.github.io/tech-radar/) to help our engineering teams
-align on technology choices. It is based on the [pioneering work
-by ThoughtWorks](https://www.thoughtworks.com/radar) and [Zalando](https://zalando.github.io/tech-radar/).
+At [Ontolux](https://ontolux.de), we maintain a Tech Radar to help our engineering teams align on technology choices for our specialized focus on **NLP, Machine Learning, LLM Integration, and Search Technologies**. It is based on the [pioneering work by ThoughtWorks](https://www.thoughtworks.com/radar) and [Zalando](https://zalando.github.io/tech-radar/).
 
-This repository is a ES6 refactoring.
+This repository is a ES6 refactoring of the original Neofonie Tech Radar, customized for Ontolux's technology stack.
+
+## Our Tech Radar Quadrants
+
+Our Tech Radar is organized into four specialized quadrants:
+
+1. **Infrastructure & MLOps** - DevOps, Cloud Services, and MLOps tools
+2. **Search, Retrieval & Data** - Search technologies, vector databases, and data processing
+3. **AI, ML & NLP** - Machine Learning frameworks, NLP tools, and AI technologies
+4. **(Large) Language Models** - Various (Large) Language Models
 
 ## Usage
 
 #### 1. install
 
 ```
-git clone https://github.com/Neofonie/tech-radar.git
+git clone https://github.com/neofonie-research/tech-radar.git
 cd tech-radar
 npm install
 ```
 
 #### 2. start local dev server
 
-Open the url: **[http://localhost:9000](http://localhost:9000)**
+Open the url: **[http://localhost:8080](http://localhost:8080)**
 
 ```
-npm run dev
+npm start
 ```
 
 #### 3. make build
@@ -47,19 +52,19 @@ The `/docs` folder is only for github pages.
 ## The Data
 - must be served by a server
 - will be loaded as fetch request
-- is mainly located in `public/data/` - edit these files
-- `public/data/` will be copied to the `dist/` and `docs/` folder on a `npm run build`
-- the all over data index is `public/data/index.json`
-- any data group is represented by a folder like `public/data/neofonie/`
-- in this folder there is a config file for the group `public/data/neofonie/config.json`
+- is mainly located in `public/radar/` - edit these files
+- `public/radar/` will be copied to the `dist/` and `docs/` folder on a `npm run build`
+- the all over data index is `public/radar/index.json`
+- any data group is represented by a folder like `public/radar/ontolux/`
+- in this folder there is a config file for the group `public/radar/config.json`
 - any group can have unlimited datasets.
-- the dataset filename without the file extension must be an entry in `public/data/index.json` in `"versions": ["2019.10", "2019.05"]`
+- the dataset filename without the file extension must be an entry in `public/radar/index.json` in `"versions": ["2025.06"]`
+
 
 ## The Theme
 - take a look in the webpack config, there are multiple entry points for the css
 - a theme override the default css. it is a second css file that will be injected
 - any theme css has a root scss file like `src/scss/dark.scss` or `src/scss/forest.scss`
-
 
 ## License
 
